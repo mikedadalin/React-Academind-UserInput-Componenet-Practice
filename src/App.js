@@ -9,7 +9,6 @@ function App() {
     setUsers((prevState) => {
       return [...prevState, { name: username, age: age }];
     });
-    console.log(JSON.stringify(users));
   };
 
   return (
